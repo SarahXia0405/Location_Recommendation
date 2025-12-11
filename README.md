@@ -26,3 +26,4 @@ final_master_clean.csv
 yelp_with_comm.csv
 lincoln_park_recommendations.csv
 ```
+[Yelp API]https://docs.developer.yelp.com/reference/v2_ai_chat
