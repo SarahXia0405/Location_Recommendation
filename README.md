@@ -1,6 +1,9 @@
 # Milk Tea & Dessert Location Intelligence – Chicago
 
 Streamlit app that recommends new bubble tea / dessert shop locations using:
+
+[Streamlit]https://locationrecommendation-9kcuj7aatzb3hvotuqt54b.streamlit.app/
+
 - Community demographics (ACS)
 - CTA & Divvy accessibility
 - Crime data
