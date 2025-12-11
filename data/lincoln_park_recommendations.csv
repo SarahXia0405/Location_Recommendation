@@ -1,0 +1,4 @@
+﻿intersection,lat,lon,priority_rank,reason,competition_distance_m,cta_nearby,divvy_nearby
+Clark St & Fullerton Ave,41.92543,-87.64376,1,Highest foot traffic; DePaul students; no direct bubble tea competitor on block,400,Fullerton Red/Brown/Purple (0.2 mi),Multiple stations within 200m
+Halsted St & Webster Ave,41.92161,-87.6503,2,Core DePaul zone; strong student density; low dessert competition,500,Fullerton CTA (0.35 mi),Webster/Halsted Divvy
+Lincoln Ave & Fullerton Pkwy,41.92588,-87.64957,3,Tri-corridor retail node; high walkability; moderate rents; frequent vacancies,450,Fullerton CTA (0.25 mi),Lincoln/Fullerton Divvy
