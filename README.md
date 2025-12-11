@@ -13,3 +13,13 @@ Streamlit app that recommends new bubble tea / dessert shop locations using:
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Data
+
+Place the following CSV files under data/:
+
+```
+final_master_clean.csv
+yelp_with_comm.csv
+lincoln_park_recommendations.csv
+```
