@@ -27,16 +27,22 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+@st.cache_data(show_spinner=False)
+def cached_read_csv(path):
+    return pd.read_csv(path)
+
+
 # ----------------------
 # Helper utilities
 # ----------------------
 def load_csv(path, expected=True):
     try:
-        return pd.read_csv(path)
+        return cached_read_csv(path)
     except FileNotFoundError:
         if expected:
             st.error(f"Could not find `{path}` in the current folder.")
         return None
+
 
 
 def pick_col(df, candidates):
@@ -465,4 +471,5 @@ elif page == "Radar Chart Explorer":
   for opening a store in that community.
 """
     )
+
 
