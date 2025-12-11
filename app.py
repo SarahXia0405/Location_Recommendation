@@ -14,9 +14,12 @@ from streamlit_folium import st_folium
 # ----------------------
 # Config & File Paths
 # ----------------------
-MASTER_PATH = "final_master_clean.csv"
-YELP_PATH = "yelp_with_comm.csv"
-LP_RECO_PATH = "lincoln_park_recommendations.csv"  # optional – ok if missing
+DATA_DIR = "data"  # folder where CSVs live
+
+MASTER_PATH = f"{DATA_DIR}/final_master_clean.csv"
+YELP_PATH = f"{DATA_DIR}/yelp_with_comm.csv"
+LP_RECO_PATH = f"{DATA_DIR}/lincoln_park_recommendations.csv"  # optional
+
 
 st.set_page_config(
     page_title="Milk Tea Location Intelligence",
@@ -462,3 +465,4 @@ elif page == "Radar Chart Explorer":
   for opening a store in that community.
 """
     )
+
